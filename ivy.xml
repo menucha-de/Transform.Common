@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+
+	<info organisation="havis/havis/transform" module="havis/transform-common" />
+
+	<configurations>
+		<conf name="default" />
+		<conf name="module" />
+		<conf name="test" />
+	</configurations>
+
+	<dependencies>
+		<dependency org="havis/transform" name="transform-api" rev="${havis.version}" conf="default,module" />
+		<dependency org="org/jmockit" name="jmockit" rev="${jmockit.version}" conf="default" />
+		<dependency org="org/jmockit" name="jmockit-coverage" rev="${jmockit.version}" conf="default" />
+		<dependency org="junit" name="junit" rev="${junit.version}" conf="default" />
+		<dependency org="org/osgi" name="org.osgi.core" rev="${osgi.version}" conf="default" />
+
+	</dependencies>
+
+</ivy-module>

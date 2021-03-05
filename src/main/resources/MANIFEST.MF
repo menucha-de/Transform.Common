@@ -1,0 +1,15 @@
+Bundle-Name: Ha-VIS Transform Common
+Bundle-SymbolicName: havis.transform-common
+Bundle-Version: 2.7.0
+Implementation-Version: 2.7
+Bundle-ManifestVersion: 2
+Bundle-Vendor: HARTING IT_SD
+Bundle-Activator: havis.transform.osgi.Activator
+Import-Package: 
+ havis.transform,
+ havis.transform.osgi,
+ javax.script,
+ org.osgi.framework,
+ org.osgi.util.tracker
+Export-Package: 
+ havis.transform.common
